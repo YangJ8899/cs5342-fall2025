@@ -3,6 +3,7 @@ from urllib.parse import urlparse
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import List
+import emoji
 
 import pandas as pd
 from atproto import Client
@@ -24,6 +25,7 @@ class PolicyLabeler:
         post = post_from_url(self.client, url)
         ## Do our checks here, if X amount return True, we append the label of POTENTIAL_SCAM to the post
         scam_checks += 1 if self.check_profile_for_potential_scam(post) else 0
+        scam_checks += 1 if self.check_post_for_emojis(post) else 0
         if scam_checks >= 2:
             return [POTENTIAL_SCAM]
         return []
@@ -76,4 +78,22 @@ class PolicyLabeler:
             return False
         except Exception as e:
             print(f"Error checking profile for scam: {e}")
+            return False
+
+    def check_post_for_emojis(self, post: GetRecordResponse) -> bool:
+        """
+        Check if the post text contains many emojis (a pattern often used by scam accounts).
+        """
+        try:
+            text = getattr(post.value, "text", "")
+            # Count how many emoji characters appear in the post
+            emoji_count = sum(char in emoji.EMOJI_DATA for char in text)
+
+            # Heuristic rule: 3 or more emojis => likely spammy/scammy style
+            if emoji_count >= 3:
+                print(f"[DEBUG] Found {emoji_count} emojis in post: {text}")
+                return True
+            return False
+        except Exception as e:
+            print(f"Error checking emojis in post: {e}")
             return False
