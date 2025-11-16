@@ -22,11 +22,11 @@ class PolicyLabeler:
         """
         Load high-risk and moderate-risk phrases from the specified directory
         """
-        # Load high-sus phrases
-        self.high_sus_phrases = [
-            phrase.lower()
-            for phrase in pd.read_csv(f"{input_dir}/high-sus-phrases.csv")["phrase"]
-        ]
+        # # Load high-sus phrases
+        # self.high_sus_phrases = [
+        #     phrase.lower()
+        #     for phrase in pd.read_csv(f"{input_dir}/high-sus-phrases.csv")["phrase"]
+        # ]
         
         # Load medium-sus phrases
         self.medium_sus_phrases = [
@@ -45,7 +45,7 @@ class PolicyLabeler:
         scam_checks += self.check_post_for_emojis(post)
         scam_checks += self.check_post_for_sus_language(post)
 
-        if scam_checks >= 4:
+        if scam_checks >= 5:
             return [POTENTIAL_SCAM]
         return []
 
@@ -140,9 +140,9 @@ class PolicyLabeler:
             scam_score = 0
             
             # If we have any phrases from the highest suspicious list, we return 3
-            for phrase in self.high_sus_phrases:
-                if phrase in text:
-                    return 3
+            # for phrase in self.high_sus_phrases:
+            #     if phrase in text:
+            #         return 3
             
             # We add 1 for every medium suspicious phrase, cap at 3
             moderate_count = 0
@@ -156,6 +156,15 @@ class PolicyLabeler:
                 scam_score = 2
             elif moderate_count >= 1:
                 scam_score = 1
+            
+            hashtag_count = text.count('#')
+        
+            if hashtag_count >= 10:
+                scam_score += 3  # Extreme hashtag spam
+            elif hashtag_count >= 7:
+                scam_score += 2  # Very high hashtag use
+            elif hashtag_count >= 4:
+                scam_score += 1  # Moderately high hashtag use
             
             return min(scam_score, 3)  # Cap at 3
             
