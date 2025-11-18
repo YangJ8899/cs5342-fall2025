@@ -8,6 +8,7 @@ import emoji
 import pandas as pd
 from atproto import Client
 from atproto_client.models.app.bsky.feed.post import GetRecordResponse
+from atproto_client.models.app.bsky.richtext.facet import Link
 
 from .label import post_from_url
 
@@ -54,9 +55,9 @@ class PolicyLabeler:
         scam_checks += self.check_post_for_sus_language(post)
         scam_checks += self.check_post_for_malicious_urls(post) 
         scam_checks += self.check_post_for_shortened_urls(post)
-        scam_checks += self.check_post_for_any_url(post)
+        has_url = self.check_post_for_any_url(post)
         
-        if scam_checks >= 5:
+        if scam_checks >= 5 and has_url:
             return [POTENTIAL_SCAM]
         return []
 
@@ -94,7 +95,7 @@ class PolicyLabeler:
             posts_to_followers = posts / max(followers, 1)
             if posts_to_followers >= 100:
                 scam_score += 3
-            elif posts_to_followers >= 50:
+            elif posts_to_followers >= 40:
                 scam_score += 2
             elif posts_to_followers >= 10:
                 scam_score += 1
@@ -183,17 +184,35 @@ class PolicyLabeler:
             print(f"Error checking post content for scam: {e}")
             return 0
         
+    def extract_all_urls(self, post: GetRecordResponse) -> List[str]:
+        """
+        Helper method to extract all URLs from a post (both text and facets).
+        """
+        urls = []
+        
+        # Get URLs from text
+        text = getattr(post.value, "text", "") or ""
+        urls_in_text = re.findall(r'https?://[^\s]+', text)
+        urls.extend(urls_in_text)
+        
+        # Get URLs from facets
+        if hasattr(post.value, 'facets') and post.value.facets:
+            for facet in post.value.facets:
+                if hasattr(facet, 'features'):
+                    for feature in facet.features:
+                        if isinstance(feature, Link):
+                            urls.append(feature.uri)
+        
+        return urls
+    
     def check_post_for_malicious_urls(self, post: GetRecordResponse) -> int:
         """
         Check if the Bluesky post text references any URL contained in malicious_phish.csv.
         Returns 3 points if a malicious URL is detected.
         """
         try:
-            text = getattr(post.value, "text", "") or ""
-            text = text.lower()
-
             # Extract URLs from the post text
-            urls_in_post = re.findall(r'https?://[^\s]+', text)
+            urls_in_post = self.extract_all_urls(post)
 
             # Normalize post URLs by stripping protocol
             normalized_urls = [
@@ -212,24 +231,23 @@ class PolicyLabeler:
         except Exception as e:
             print(f"Error checking malicious URLs: {e}")
             return 0
-        
-    def check_post_for_any_url(self, post: GetRecordResponse) -> int:
+    
+    def check_post_for_any_url(self, post: GetRecordResponse) -> bool:
         """
         Check if the post text contains ANY URL at all.
         Returns 1 point if a URL is present.
         """
         try:
-            text = getattr(post.value, "text", "") or ""
-            text = text.lower()
-
-            # Regex to detect URLs
-            urls_found = re.findall(r'https?://[^\s]+', text)
-
-            return 1 if len(urls_found) > 0 else 0
+            urls = self.extract_all_urls(post)
+            
+            if urls:
+                print(f"URLs found: {urls}")
+            
+            return True if len(urls) > 0 else False
 
         except Exception as e:
             print(f"Error checking for any URL: {e}")
-            return 0
+            return False
 
     def check_post_for_shortened_urls(self, post: GetRecordResponse) -> int:
         """
@@ -237,11 +255,7 @@ class PolicyLabeler:
         Returns 2 points if any shortened URL is detected.
         """
         try:
-            text = getattr(post.value, "text", "") or ""
-            text = text.lower()
-
-            # Extract URLs
-            urls_in_post = re.findall(r'https?://[^\s]+', text)
+            urls_in_post = self.extract_all_urls(post)
 
             if not urls_in_post:
                 return 0
@@ -250,6 +264,7 @@ class PolicyLabeler:
             shortened_domains = [
                 "bit.ly",
                 "t.co",
+                "t.me",
                 "tinyurl.com",
                 "goo.gl",
                 "ow.ly",
@@ -262,11 +277,12 @@ class PolicyLabeler:
                 "rb.gy",
                 "adf.ly",
                 "bit.do",
+                "short.com"
             ]
             for url in urls_in_post:
                 for short in shortened_domains:
                     if short in url:
-                        return 2  
+                        return 2
 
             return 0
 
