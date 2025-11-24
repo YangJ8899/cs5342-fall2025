@@ -1,0 +1,1202 @@
+{
+  "SYNTHETIC_001": {
+    "text": "🚀💰🔥 LIMITED TIME OFFER! Join our discord for GUARANTEED crypto profits! https://discord.gg/cryptoscam 💸💎✨ #crypto #bitcoin #trading #money #profit #wealth #invest #rich #forex #signals",
+    "profile": {
+      "posts": 5,
+      "followers": 3,
+      "following": 500
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Discord scam - shortened URL (+2), 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (join our discord, limited time, guaranteed profit) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_002": {
+    "text": "Bitcoin reaches new all-time high of $100,000! Major milestone for cryptocurrency adoption. Full analysis and market implications here: https://legitnews.com/bitcoin-ath-analysis",
+    "profile": {
+      "posts": 5000,
+      "followers": 50000,
+      "following": 1000
+    },
+    "expected": [],
+    "reason": "Legitimate news - 1 sus phrase (full analysis) but good profile metrics, no other spam indicators"
+  },
+  "SYNTHETIC_003": {
+    "text": "PSA: Don't fall for guaranteed returns or easy money schemes. If someone promises passive income with no risk, it's always a scam. Report and block! 🚨",
+    "profile": {
+      "posts": 200,
+      "followers": 500,
+      "following": 300
+    },
+    "expected": [],
+    "reason": "Warning about scams - 3 sus phrases in quotes but warning context, 1 emoji, good profile, no URL"
+  },
+  "SYNTHETIC_004": {
+    "text": "Interested in financial freedom? 💰 DM me to learn about our exclusive opportunity. Limited spots! Act now before it's too late! 🔥",
+    "profile": {
+      "posts": 10,
+      "followers": 2,
+      "following": 800
+    },
+    "expected": [],
+    "reason": "SHOULD FAIL - 3+ sus phrases (financial freedom, dm me, exclusive, limited, act now) (+3), 2 emojis (+1), bad profile (+5) = 9 but NO URL"
+  },
+  "SYNTHETIC_005": {
+    "text": "Beautiful sunset at the beach today! 🌅☀️ #photography #nature #sunset #sky #beautiful #beach #ocean #landscape #travel #photooftheday",
+    "profile": {
+      "posts": 1000,
+      "followers": 800,
+      "following": 600
+    },
+    "expected": [],
+    "reason": "Instagram crosspost - 10 hashtags (+3) but only 2 emojis, good profile, no URL, no sus phrases"
+  },
+  "SYNTHETIC_006": {
+    "text": "Check out my new indie game! 🎮 Join our discord community for dev updates and early access: https://discord.gg/indiegame",
+    "profile": {
+      "posts": 50,
+      "followers": 200,
+      "following": 150
+    },
+    "expected": [],
+    "reason": "Legitimate Discord - 2 sus phrases (check it out, join our discord) (+1), 1 emoji, good profile ratio = 2, has URL but below threshold"
+  },
+  "SYNTHETIC_007": {
+    "text": "🚀 Premium signal service! Trading alerts for $SPY $QQQ $NVDA $TSLA $AAPL Subscribe now for exclusive access! 📈💰 Click here: https://bit.ly/tradingsignals #trading #stocks #crypto #profit #invest #money #signals",
+    "profile": {
+      "posts": 100,
+      "followers": 15,
+      "following": 50
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Trading spam - shortened URL (+2), 3 emojis (+1), 7 hashtags (+2), 3+ sus phrases (premium signal, trading alert, subscribe now, exclusive access, click here) (+3), profile ratio (+1) = 9, has URL"
+  },
+  "SYNTHETIC_008": {
+    "text": "Just made $10k this week with this simple trading strategy! 💸💰 Link in bio for full details and exclusive access! Limited time! 🔥",
+    "profile": {
+      "posts": 20,
+      "followers": 8,
+      "following": 300
+    },
+    "expected": [],
+    "reason": "SHOULD FAIL - 3+ sus phrases (link in bio, exclusive access, limited time, make money) (+3), 3 emojis (+1), bad profile (+3) = 7 but NO URL in post"
+  },
+  "SYNTHETIC_009": {
+    "text": "lmao someone just tried the 'send me 1 BTC and I'll send back 2' scam on me. don't fall for this obvious scam y'all 😂",
+    "profile": {
+      "posts": 500,
+      "followers": 300,
+      "following": 200
+    },
+    "expected": [],
+    "reason": "Satire - 1 emoji, good profile, no URL, warning others about scams"
+  },
+  "SYNTHETIC_010": {
+    "text": "Sharing my affiliate link for this trading platform: https://tradingsite.com/ref=user123 Been using it for 6 months, might help some of you.",
+    "profile": {
+      "posts": 150,
+      "followers": 250,
+      "following": 180
+    },
+    "expected": [],
+    "reason": "Borderline affiliate - 1 sus phrase (trading) but transparent, good profile, normal URL = 1 point, has URL but below threshold"
+  },
+  "SYNTHETIC_011": {
+    "text": "💎🚀 URGENT! Get rich quick with our proven system! Join NOW! https://shorturl.at/moneyfast Limited spots! Don't miss out! Hurry! 💰🔥💸 #money #rich #profit #invest #crypto #trading #wealth #freedom #passive",
+    "profile": {
+      "posts": 3,
+      "followers": 1,
+      "following": 600
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Extreme scam - shortened URL (+2), 5 emojis (+2), 9 hashtags (+2), 3+ sus phrases (get rich, limited, don't miss, hurry) (+3), extreme profile (+5) = 14, has URL"
+  },
+  "SYNTHETIC_012": {
+    "text": "New blog post: How to spot cryptocurrency scams and protect your investments. Learn the red flags and stay safe: https://myblog.com/spot-crypto-scams",
+    "profile": {
+      "posts": 80,
+      "followers": 150,
+      "following": 120
+    },
+    "expected": [],
+    "reason": "Educational content - 1 sus phrase (learn more) but educational context, good profile"
+  },
+  "SYNTHETIC_013": {
+    "text": "💰💸💵 Make money fast online! Passive income! Financial freedom! Join telegram now! https://t.me/moneyscam 🚀🔥💎 #makemoney #passive #income #wealth #freedom #crypto #trading #invest #rich #profit",
+    "profile": {
+      "posts": 8,
+      "followers": 4,
+      "following": 450
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Telegram scam - shortened URL (+2), 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (make money fast, passive income, financial freedom, join telegram) (+3), bad profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_014": {
+    "text": "Working on a new open source project. Check out the repo and contribute if interested: https://github.com/myproject",
+    "profile": {
+      "posts": 200,
+      "followers": 400,
+      "following": 350
+    },
+    "expected": [],
+    "reason": "Legitimate dev - 1 sus phrase (check it out) but good profile, GitHub URL"
+  },
+  "SYNTHETIC_015": {
+    "text": "🎨 Artist commissions open! 💕 DM for prices! ✨ Portfolio available! 🌸 #art #commissions #artist #drawing #illustration #digital #anime #cute #portfolio #available",
+    "profile": {
+      "posts": 500,
+      "followers": 600,
+      "following": 400
+    },
+    "expected": [],
+    "reason": "Artist promotion - 10 hashtags (+3), 4 emojis (+1), 2 sus phrases (dm, available) (+1) = 5 but NO URL"
+  },
+  "SYNTHETIC_016": {
+    "text": "Breaking: Major exchange hack. If you have funds on CryptoExchange, withdraw immediately. More details: https://news.com/exchange-hack",
+    "profile": {
+      "posts": 3000,
+      "followers": 15000,
+      "following": 800
+    },
+    "expected": [],
+    "reason": "Legitimate urgent news - established account, legitimate warning, news source"
+  },
+  "SYNTHETIC_017": {
+    "text": "FREE MONEY! 💰💸💵 Click here NOW! https://bit.ly/freemoney Get paid TODAY! Limited time! Act fast! 🚀🔥💎 #free #money #cash #paid #fast #now #urgent #limited #act #click",
+    "profile": {
+      "posts": 2,
+      "followers": 0,
+      "following": 800
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Obvious scam - shortened URL (+2), 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (click here, limited time, act, money, free) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_018": {
+    "text": "My thoughts on the current market conditions and why I'm bullish long-term: https://medium.com/@me/market-analysis",
+    "profile": {
+      "posts": 150,
+      "followers": 300,
+      "following": 200
+    },
+    "expected": [],
+    "reason": "Personal blog - good profile, legitimate content, Medium link"
+  },
+  "SYNTHETIC_019": {
+    "text": "SCAM ALERT: Someone is impersonating me and asking for money. I will NEVER ask you to send crypto or join paid groups. Please report fake accounts.",
+    "profile": {
+      "posts": 1000,
+      "followers": 5000,
+      "following": 500
+    },
+    "expected": [],
+    "reason": "Scam warning - uses keywords but warning others, no URL, established account"
+  },
+  "SYNTHETIC_020": {
+    "text": "🔥💎🚀 Exclusive trading group! Members only access! Join https://discord.gg/trading Premium signals! Make money fast! 💰💸🤑 #trading #signals #premium #exclusive #crypto #profit #money #rich #forex #bitcoin",
+    "profile": {
+      "posts": 6,
+      "followers": 2,
+      "following": 700
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Discord scam - shortened URL (+2), 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (exclusive, members only, join, premium signal, make money fast) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_021": {
+    "text": "New video up on YouTube about trading psychology! Link: https://youtube.com/watch?v=abc123",
+    "profile": {
+      "posts": 100,
+      "followers": 500,
+      "following": 300
+    },
+    "expected": [],
+    "reason": "Content creator - 1 sus word (trading) but good profile, legitimate platform"
+  },
+  "SYNTHETIC_022": {
+    "text": "📢 Announcing our new product launch! 🎉 Early bird discount available! Check it out: https://synthetic_022.com/product 🚀 #product #launch #new #startup #tech #innovation",
+    "profile": {
+      "posts": 50,
+      "followers": 200,
+      "following": 150
+    },
+    "expected": [],
+    "reason": "Legitimate business - 3 emojis (+1), 6 hashtags (+1), 2 sus phrases (available, check it out) (+1) = 3, has URL but below threshold"
+  },
+  "SYNTHETIC_023": {
+    "text": "Crypto market update: BTC holding strong support. ETH showing weakness. My full analysis and trade setups for subscribers only.",
+    "profile": {
+      "posts": 800,
+      "followers": 2000,
+      "following": 500
+    },
+    "expected": [],
+    "reason": "SHOULD FAIL - 3 sus phrases (full analysis, trade, subscribers only) (+3) but good profile, NO URL = 3 points, below threshold"
+  },
+  "SYNTHETIC_024": {
+    "text": "💰 GUARANTEED PROFITS! 💰 Join our exclusive group! https://t.me/guaranteed Premium access! Easy money! Subscribe now! 🚀💸🔥 #guaranteed #profit #exclusive #premium #easy #money #subscribe #join #crypto #signals",
+    "profile": {
+      "posts": 4,
+      "followers": 1,
+      "following": 900
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Extreme scam - shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (guaranteed profit, join, exclusive, premium, easy money, subscribe now) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_025": {
+    "text": "Reminder: If an investment opportunity sounds too good to be true, it probably is. Do your own research and never invest more than you can afford to lose.",
+    "profile": {
+      "posts": 300,
+      "followers": 800,
+      "following": 400
+    },
+    "expected": [],
+    "reason": "Financial advice - legitimate warning, good profile, no URL, educational"
+  },
+  "SYNTHETIC_026": {
+    "text": "Just published my research paper on blockchain consensus mechanisms: https://arxiv.org/paper/12345",
+    "profile": {
+      "posts": 40,
+      "followers": 150,
+      "following": 100
+    },
+    "expected": [],
+    "reason": "Academic - legitimate research, good profile, academic URL"
+  },
+  "SYNTHETIC_027": {
+    "text": "🎮 Streaming live now! Come hang out! 💜 https://twitch.tv/mygaming 🎮 #twitch #gaming #live #stream #gamer #streaming #follow #watch #online #content",
+    "profile": {
+      "posts": 600,
+      "followers": 1000,
+      "following": 500
+    },
+    "expected": [],
+    "reason": "Streamer - 10 hashtags (+3), 2 emojis (+1), no sus phrases = 4, has URL but good profile, below threshold"
+  },
+  "SYNTHETIC_028": {
+    "text": "Weather bot update: Sunny, 75°F. Have a great day!",
+    "profile": {
+      "posts": 5000,
+      "followers": 50,
+      "following": 0
+    },
+    "expected": [],
+    "reason": "Bot account - high posts but no following, no spam indicators, no URL"
+  },
+  "SYNTHETIC_029": {
+    "text": "💸💰🤑 PASSIVE INCOME! Financial freedom! Join our community! https://rebrand.ly/wealth Limited time offer! Subscribe now! Make money! 🚀🔥💎 #passive #income #financial #freedom #wealth #money #subscribe #limited #community #join",
+    "profile": {
+      "posts": 7,
+      "followers": 3,
+      "following": 550
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Scam - shortened URL (+2), 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (passive income, financial freedom, join, limited time, subscribe now, make money) (+3), bad profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_030": {
+    "text": "Tutorial: How to secure your crypto wallet. Important security tips everyone should know: https://securityblog.com/wallet-security",
+    "profile": {
+      "posts": 120,
+      "followers": 300,
+      "following": 250
+    },
+    "expected": [],
+    "reason": "Security education - legitimate, good profile, educational content"
+  },
+  "SYNTHETIC_031": {
+    "text": "Supporting my friend's kickstarter! Cool indie game project: https://kickstarter.com/project123",
+    "profile": {
+      "posts": 80,
+      "followers": 200,
+      "following": 180
+    },
+    "expected": [],
+    "reason": "Personal recommendation - no spam indicators, legitimate platform"
+  },
+  "SYNTHETIC_032": {
+    "text": "🔥💎 CRYPTO PUMP! 🚀 Join telegram! Get rich quick! https://t.me/pump Last chance! Act now! 💰💸🤑 #pump #crypto #rich #telegram #last #now #join #get #money #fast",
+    "profile": {
+      "posts": 1,
+      "followers": 0,
+      "following": 1000
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Pump scheme - shortened URL (+2), 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (join telegram, get rich, last chance, act now) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_033": {
+    "text": "Hot take: Most trading signals groups are scams. They make money from subscriptions, not trading. Don't waste your money.",
+    "profile": {
+      "posts": 250,
+      "followers": 600,
+      "following": 350
+    },
+    "expected": [],
+    "reason": "Warning - 2 sus phrases (trading signal, subscription) but warning context, no URL"
+  },
+  "SYNTHETIC_034": {
+    "text": "Proud to announce I'm joining CompanyX as a software engineer! Excited for this new chapter. https://companyx.com/careers",
+    "profile": {
+      "posts": 50,
+      "followers": 300,
+      "following": 250
+    },
+    "expected": [],
+    "reason": "Personal announcement - legitimate, good profile, company URL"
+  },
+  "SYNTHETIC_035": {
+    "text": "💰💸 MAKE MONEY NOW! https://adf.ly/profit CLICK HERE! Limited access! Subscribe! Join! 🚀🔥💎 #make #money #now #click #limited #access #subscribe #join #profit #fast",
+    "profile": {
+      "posts": 3,
+      "followers": 1,
+      "following": 750
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Obvious scam - shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (make money, click here, limited, subscribe, join) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_036": {
+    "text": "Question for crypto traders: What's your go-to strategy for bear markets? Looking for different perspectives.",
+    "profile": {
+      "posts": 150,
+      "followers": 250,
+      "following": 200
+    },
+    "expected": [],
+    "reason": "Discussion question - 1 sus word (trading) but good profile, no URL, genuine question"
+  },
+  "SYNTHETIC_037": {
+    "text": "My photography portfolio: https://myportfolio.com #photography #art #photos #creative #portfolio",
+    "profile": {
+      "posts": 200,
+      "followers": 400,
+      "following": 300
+    },
+    "expected": [],
+    "reason": "Portfolio - 5 hashtags (+1), has URL but only 1 point total, good profile"
+  },
+  "SYNTHETIC_038": {
+    "text": "🚨 WARNING: New phishing scam targeting crypto users. They send fake Discord invites. Stay safe and verify everything!",
+    "profile": {
+      "posts": 400,
+      "followers": 1000,
+      "following": 500
+    },
+    "expected": [],
+    "reason": "Security warning - 1 emoji, mentions Discord but warning others, no URL, established account"
+  },
+  "SYNTHETIC_039": {
+    "text": "💎🚀💰 FOREX SIGNALS! Premium access! Join NOW! https://cutt.ly/forex Subscribe! Make money! Limited spots! 🔥💸🤑 #forex #signals #premium #access #join #now #subscribe #money #limited #trading",
+    "profile": {
+      "posts": 5,
+      "followers": 2,
+      "following": 600
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Forex scam - shortened URL (+2), 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (crypto signal, premium, join, subscribe, make money, limited) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_040": {
+    "text": "Spent all day debugging. Finally found the issue - it was a typo. Classic. ☕",
+    "profile": {
+      "posts": 300,
+      "followers": 200,
+      "following": 180
+    },
+    "expected": [],
+    "reason": "Developer tweet - 1 emoji, casual, no spam, no URL, relatable content"
+  },
+  "SYNTHETIC_041": {
+    "text": "Newsletter signup for weekly market insights: https://newsletter.com/signup",
+    "profile": {
+      "posts": 100,
+      "followers": 500,
+      "following": 300
+    },
+    "expected": [],
+    "reason": "Newsletter - 1 sus phrase (sign up) but good profile, legitimate newsletter = 1 point, has URL but below threshold"
+  },
+  "SYNTHETIC_042": {
+    "text": "🎉🎊🎈 GIVEAWAY! Free access! Join https://discord.gg/giveaway Subscribe now! Limited spots! Act now! Winner announced! 🚀💰🔥 #giveaway #free #access #join #subscribe #limited #spots #now #winner #prize",
+    "profile": {
+      "posts": 4,
+      "followers": 1,
+      "following": 850
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Fake giveaway - shortened URL (+2), 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (free access, join, subscribe now, limited, act now) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_043": {
+    "text": "Interesting article on DeFi trends: https://defiweekly.com/trends-2024",
+    "profile": {
+      "posts": 200,
+      "followers": 400,
+      "following": 300
+    },
+    "expected": [],
+    "reason": "Content sharing - no spam indicators, good profile, legitimate news source"
+  },
+  "SYNTHETIC_044": {
+    "text": "Looking for beta testers for my app! DM if interested. Would love feedback from early users!",
+    "profile": {
+      "posts": 50,
+      "followers": 100,
+      "following": 90
+    },
+    "expected": [],
+    "reason": "SHOULD FAIL - 1 sus phrase (dm) but good profile, NO URL = 1 point, below threshold"
+  },
+  "SYNTHETIC_045": {
+    "text": "💸💰🤑 TRADING COURSE! Financial freedom! Join telegram! https://t.me/course Premium! Subscribe now! Limited! Make money! 🚀🔥💎 #trading #course #financial #freedom #telegram #premium #subscribe #limited #money #learn",
+    "profile": {
+      "posts": 6,
+      "followers": 3,
+      "following": 500
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Course scam - shortened URL (+2), 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (financial freedom, join telegram, premium, subscribe now, limited, make money) (+3), bad profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_046": {
+    "text": "Thread: Common mistakes new traders make and how to avoid them. 1/10",
+    "profile": {
+      "posts": 500,
+      "followers": 2000,
+      "following": 800
+    },
+    "expected": [],
+    "reason": "Educational thread - 1 sus word (trading) but established account, no URL, educational"
+  },
+  "SYNTHETIC_047": {
+    "text": "Congrats to everyone who bought the dip! Patience pays off in crypto.",
+    "profile": {
+      "posts": 300,
+      "followers": 600,
+      "following": 400
+    },
+    "expected": [],
+    "reason": "Casual crypto discussion - no spam, no URL, community engagement"
+  },
+  "SYNTHETIC_048": {
+    "text": "🔥💎🚀 INVESTMENT OPPORTUNITY! Passive income! Join now! https://is.gd/invest Subscribe! Limited time! Make money fast! 💰💸🤑 #investment #opportunity #passive #income #join #now #subscribe #limited #money #profit",
+    "profile": {
+      "posts": 2,
+      "followers": 0,
+      "following": 900
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "Investment scam - shortened URL (+2), 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (passive income, join, subscribe, limited time, make money fast) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_049": {
+    "text": "My band just dropped a new single! Give it a listen: https://spotify.com/track/123 🎵",
+    "profile": {
+      "posts": 100,
+      "followers": 300,
+      "following": 250
+    },
+    "expected": [],
+    "reason": "Music promotion - 1 emoji, legitimate, good profile, Spotify link"
+  },
+  "SYNTHETIC_050": {
+    "text": "Can someone explain how liquidity pools work? Still trying to wrap my head around it.",
+    "profile": {
+      "posts": 80,
+      "followers": 120,
+      "following": 100
+    },
+    "expected": [],
+    "reason": "Question - no spam indicators, no URL, genuine learning"
+  },
+  "SYNTHETIC_051": {
+    "text": "Check out this article on crypto regulation: https://news.com/article AND join my premium signals group: https://t.me/signals for insider info! 🚀💰",
+    "profile": {
+      "posts": 50,
+      "followers": 20,
+      "following": 400
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "MIXED URLS - One legitimate, one scam. Shortened URL (+2), 2 emojis (+1), 2 sus phrases (premium, insider) (+1), bad profile (+3) = 7, has URL"
+  },
+  "SYNTHETIC_052": {
+    "text": "Great article: https://legitnews.com/crypto and another good read: https://medium.com/blockchain-tech",
+    "profile": {
+      "posts": 200,
+      "followers": 300,
+      "following": 250
+    },
+    "expected": [],
+    "reason": "MULTIPLE LEGITIMATE URLS - Good profile, no spam indicators, both URLs legitimate"
+  },
+  "SYNTHETIC_053": {
+    "text": "🔥💎🚀💰💸🤑 AMAZING OPPORTUNITY! https://legitlooking-domain.com/definitely-not-scam Limited time! Join now! Subscribe! #crypto #money #profit #trading #rich #invest #wealth #signals #premium #forex",
+    "profile": {
+      "posts": 3,
+      "followers": 1,
+      "following": 700
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "LEGITIMATE-LOOKING DOMAIN - 6 emojis (+2), 10 hashtags (+3), 3+ sus phrases (+3), extreme profile (+5), normal URL but everything else screams scam = 13, has URL"
+  },
+  "SYNTHETIC_054": {
+    "text": "Free webinar on crypto investing tomorrow at 3pm. Register here: https://zoom.us/meeting/12345 No cost, just educational content.",
+    "profile": {
+      "posts": 100,
+      "followers": 500,
+      "following": 300
+    },
+    "expected": [],
+    "reason": "LEGITIMATE WEBINAR - Uses 'free' but legitimate platform (Zoom), good profile, educational = 1 point, below threshold"
+  },
+  "SYNTHETIC_055": {
+    "text": "I've been scammed three times this month. Here are the red flags I missed: guaranteed returns, pressure to act fast, anonymous telegram groups. Stay vigilant!",
+    "profile": {
+      "posts": 150,
+      "followers": 200,
+      "following": 180
+    },
+    "expected": [],
+    "reason": "PERSONAL SCAM STORY - Uses many sus phrases but sharing experience, no URL, warning others"
+  },
+  "SYNTHETIC_056": {
+    "text": "💰 Make money! 💰 Click here! https://example.com Limited! #money",
+    "profile": {
+      "posts": 100,
+      "followers": 95,
+      "following": 105
+    },
+    "expected": [],
+    "reason": "BORDERLINE PROFILE - 2 emojis (+1), 3 sus phrases (make money, click here, limited) (+3), but GOOD profile ratio = 4, has URL but below threshold"
+  },
+  "SYNTHETIC_057": {
+    "text": "🚨 URGENT: Your account has been compromised. Verify your identity immediately: https://blueskysecurity-verify.com/login Don't delay!",
+    "profile": {
+      "posts": 1,
+      "followers": 0,
+      "following": 500
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "PHISHING IMPERSONATION - 1 emoji, 2 sus phrases (urgent, don't) (+1), suspicious domain impersonating service, extreme profile (+5) = 6, has URL"
+  },
+  "SYNTHETIC_058": {
+    "text": "My new blog is live! Writing about my journey learning to code. Check it out: https://myblog.dev/first-post",
+    "profile": {
+      "posts": 5,
+      "followers": 10,
+      "following": 15
+    },
+    "expected": [],
+    "reason": "NEW USER - Low activity but balanced ratios, 1 sus phrase (check it out) but legitimate context = 1 point, has URL but below threshold"
+  },
+  "SYNTHETIC_059": {
+    "text": "Whitepaper for our new DeFi protocol: https://ourproject.io/whitepaper.pdf Built by ex-Google engineers. Launching Q2 2025.",
+    "profile": {
+      "posts": 30,
+      "followers": 100,
+      "following": 80
+    },
+    "expected": [],
+    "reason": "LEGITIMATE CRYPTO PROJECT - Good profile, no spam indicators, professional presentation"
+  },
+  "SYNTHETIC_060": {
+    "text": "😂😂😂 This meme perfectly describes my trading strategy lol https://imgur.com/meme123",
+    "profile": {
+      "posts": 500,
+      "followers": 400,
+      "following": 350
+    },
+    "expected": [],
+    "reason": "CASUAL MEME - 3 emojis (+1), 1 sus phrase (trading) but casual context, good profile = 2, has URL but below threshold"
+  },
+  "SYNTHETIC_061": {
+    "text": "ALERT: New ransomware targeting crypto wallets. Protect yourself: https://security-blog.com/ransomware-alert More info in thread. 🔒",
+    "profile": {
+      "posts": 250,
+      "followers": 1000,
+      "following": 500
+    },
+    "expected": [],
+    "reason": "SECURITY ALERT - 1 emoji, legitimate security warning, established account"
+  },
+  "SYNTHETIC_062": {
+    "text": "🔥🚀 NFT DROP! Exclusive! Limited! Join discord.gg/nft Get whitelist! https://nft-project.com Mint live! 💎🎨 #nft #crypto #mint #exclusive #limited #whitelist #drop #art #digital #ethereum",
+    "profile": {
+      "posts": 10,
+      "followers": 5,
+      "following": 300
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "NFT SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (exclusive, limited, join discord) (+3), bad profile (+3) = 13, has URL"
+  },
+  "SYNTHETIC_063": {
+    "text": "Code review for my open source project. Looking for contributors: https://github.com/myproject/pull/123",
+    "profile": {
+      "posts": 80,
+      "followers": 120,
+      "following": 100
+    },
+    "expected": [],
+    "reason": "OPEN SOURCE - GitHub URL, developer activity, good profile"
+  },
+  "SYNTHETIC_064": {
+    "text": "Investment opportunity in tech startups. DM for prospectus. Returns estimated 15-20% annually. Limited partners only.",
+    "profile": {
+      "posts": 20,
+      "followers": 30,
+      "following": 200
+    },
+    "expected": [],
+    "reason": "SHOULD FAIL - 3+ sus phrases (investment opportunity, dm, returns, limited) (+3), bad profile (+2) = 5 but NO URL"
+  },
+  "SYNTHETIC_065": {
+    "text": "Thread on how scammers use psychological manipulation: 1) Urgency 2) Exclusivity 3) Social proof 4) Authority. Recognizing these tactics can save you thousands. https://blog.com/scam-psychology",
+    "profile": {
+      "posts": 400,
+      "followers": 2000,
+      "following": 800
+    },
+    "expected": [],
+    "reason": "EDUCATIONAL THREAD - Uses 'scam' keywords but educational, established account, legitimate blog"
+  },
+  "SYNTHETIC_066": {
+    "text": "🎉 AIRDROP! Free tokens! https://bit.ly/airdrop Connect wallet! Claim now! Limited quantity! 🪂💰🚀 #airdrop #free #crypto #tokens #claim #wallet #giveaway #blockchain #ethereum #defi",
+    "profile": {
+      "posts": 2,
+      "followers": 0,
+      "following": 900
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "CRYPTO AIRDROP SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (free, claim, limited) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_067": {
+    "text": "Job posting: Senior Blockchain Developer. Remote, $150k-$200k. Apply: https://careers.company.com/blockchain-dev",
+    "profile": {
+      "posts": 50,
+      "followers": 200,
+      "following": 150
+    },
+    "expected": [],
+    "reason": "JOB POSTING - 1 sus phrase (apply) but legitimate job post, good profile"
+  },
+  "SYNTHETIC_068": {
+    "text": "My cat knocked over my coffee while I was checking crypto prices. Now my keyboard smells like coffee and regret. 😹☕",
+    "profile": {
+      "posts": 300,
+      "followers": 250,
+      "following": 220
+    },
+    "expected": [],
+    "reason": "CASUAL HUMOR - 2 emojis, mentions crypto but casual story, no URL, good profile"
+  },
+  "SYNTHETIC_069": {
+    "text": "💸💰 PAY ATTENTION! Binary options trading! Guaranteed 95% win rate! https://t.me/binary Subscribe to premium! Don't miss! 🔥🚀💎 #binary #options #trading #guaranteed #win #premium #subscribe #profit #money #invest",
+    "profile": {
+      "posts": 4,
+      "followers": 2,
+      "following": 600
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "BINARY OPTIONS SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (guaranteed, subscribe, premium, don't miss) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_070": {
+    "text": "Research paper on blockchain scalability solutions published in IEEE: https://ieeexplore.ieee.org/document/12345",
+    "profile": {
+      "posts": 40,
+      "followers": 300,
+      "following": 200
+    },
+    "expected": [],
+    "reason": "ACADEMIC PAPER - Prestigious source (IEEE), good profile, no spam"
+  },
+  "SYNTHETIC_071": {
+    "text": "Livestream in 10 minutes! Discussing market trends. Watch here: https://youtube.com/live/abc123 See you there! 📺",
+    "profile": {
+      "posts": 200,
+      "followers": 1500,
+      "following": 600
+    },
+    "expected": [],
+    "reason": "CONTENT CREATOR - 1 emoji, 1 sus phrase (see) but established creator, YouTube link"
+  },
+  "SYNTHETIC_072": {
+    "text": "https://malicious-phishing-site.ru/steal-credentials",
+    "profile": {
+      "posts": 1,
+      "followers": 0,
+      "following": 0
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "BARE MALICIOUS URL - If in malicious_phish.csv (+3), extreme profile (+5) = 8, has URL"
+  },
+  "SYNTHETIC_073": {
+    "text": "For those asking about my trading strategy: I don't have one. I just buy high and panic sell low like everyone else. 😅",
+    "profile": {
+      "posts": 150,
+      "followers": 180,
+      "following": 160
+    },
+    "expected": [],
+    "reason": "SELF-DEPRECATING HUMOR - 1 emoji, 1 sus phrase (trading) but joking, no URL, good profile"
+  },
+  "SYNTHETIC_074": {
+    "text": "💎🔥 PUMP GROUP! Join telegram NOW! We pump coins 1000x! https://t.me/pump Next pump in 1 hour! Get rich! 🚀💰🤑 #pump #group #telegram #coins #1000x #rich #profit #crypto #trading #signals",
+    "profile": {
+      "posts": 3,
+      "followers": 1,
+      "following": 800
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "PUMP AND DUMP - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (join telegram, get rich, pump) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_075": {
+    "text": "Fundraiser for local animal shelter: https://gofundme.com/animal-shelter Every dollar helps! 🐕🐈",
+    "profile": {
+      "posts": 80,
+      "followers": 150,
+      "following": 140
+    },
+    "expected": [],
+    "reason": "CHARITY FUNDRAISER - 2 emojis, legitimate platform (GoFundMe), good profile"
+  },
+  "SYNTHETIC_076": {
+    "text": "Updated my portfolio site with new projects: https://myportfolio.dev",
+    "profile": {
+      "posts": 25,
+      "followers": 50,
+      "following": 60
+    },
+    "expected": [],
+    "reason": "PORTFOLIO UPDATE - Good profile ratio, no spam indicators"
+  },
+  "SYNTHETIC_077": {
+    "text": "🚀💰 ROBOT TRADING BOT! Fully automated! Passive income! https://cutt.ly/tradingbot Subscribe! Make money 24/7! 🤖💸🔥 #robot #trading #bot #automated #passive #income #subscribe #money #profit #crypto",
+    "profile": {
+      "posts": 6,
+      "followers": 3,
+      "following": 550
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "TRADING BOT SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (passive income, subscribe, make money, automated) (+3), bad profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_078": {
+    "text": "Finally finished my thesis on cryptocurrency adoption in developing nations. Four years of work! https://university.edu/thesis/crypto-adoption.pdf",
+    "profile": {
+      "posts": 30,
+      "followers": 100,
+      "following": 90
+    },
+    "expected": [],
+    "reason": "THESIS - Academic achievement, .edu domain, good profile"
+  },
+  "SYNTHETIC_079": {
+    "text": "Does anyone know a good accountant who understands crypto taxes? DM me recommendations please!",
+    "profile": {
+      "posts": 120,
+      "followers": 200,
+      "following": 180
+    },
+    "expected": [],
+    "reason": "ASKING FOR HELP - 1 sus phrase (dm me) but genuine question, no URL, good profile"
+  },
+  "SYNTHETIC_080": {
+    "text": "🔥💎 ICO LAUNCH! Get tokens now! 10000% returns guaranteed! https://ico-scam.io/buy Whitepaper! Roadmap! Team! 🚀💰🤑 #ico #launch #tokens #returns #guaranteed #whitepaper #crypto #invest #blockchain #defi",
+    "profile": {
+      "posts": 5,
+      "followers": 2,
+      "following": 700
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "ICO SCAM - 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (guaranteed returns, get tokens, ico) (+3), extreme profile (+5) = 13, has URL"
+  },
+  "SYNTHETIC_081": {
+    "text": "Conference talk on blockchain security: https://youtu.be/conference-talk Slides available on my GitHub.",
+    "profile": {
+      "posts": 60,
+      "followers": 400,
+      "following": 300
+    },
+    "expected": [],
+    "reason": "CONFERENCE TALK - YouTube link, professional, good profile"
+  },
+  "SYNTHETIC_082": {
+    "text": "I'm writing a book on common crypto scams. If you've been scammed, I'd love to interview you (anonymously). DM me.",
+    "profile": {
+      "posts": 200,
+      "followers": 500,
+      "following": 400
+    },
+    "expected": [],
+    "reason": "RESEARCH REQUEST - 1 sus phrase (dm me) but legitimate research, established account, no URL"
+  },
+  "SYNTHETIC_083": {
+    "text": "🎯💰 SIGNAL ACCURACY 99%! Join VIP group! https://t.me/signals Premium members only! Make profit daily! 📈🚀💎 #signal #accuracy #vip #premium #members #profit #daily #trading #crypto #forex",
+    "profile": {
+      "posts": 7,
+      "followers": 4,
+      "following": 600
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "SIGNAL GROUP SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (join, vip, premium, members only, make profit) (+3), bad profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_084": {
+    "text": "Reminder to everyone: Never share your seed phrase with anyone. Not even 'support' staff. Legitimate services will never ask for it.",
+    "profile": {
+      "posts": 300,
+      "followers": 800,
+      "following": 600
+    },
+    "expected": [],
+    "reason": "SECURITY PSA - Important warning, established account, no URL"
+  },
+  "SYNTHETIC_085": {
+    "text": "Beta testing my new crypto portfolio tracker app. Looking for 10 testers. Features: real-time prices, tax reports, multi-wallet support. Interested? https://testflight.apple.com/myapp",
+    "profile": {
+      "posts": 40,
+      "followers": 80,
+      "following": 70
+    },
+    "expected": [],
+    "reason": "BETA TEST - Apple TestFlight (legitimate), detailed features, good profile"
+  },
+  "SYNTHETIC_086": {
+    "text": "💸💰 FOREX ACADEMY! Learn trading! Guaranteed success! https://rb.gy/academy Join course! Limited enrollment! 🔥📚🚀 #forex #academy #learn #trading #guaranteed #success #course #limited #profit #money",
+    "profile": {
+      "posts": 8,
+      "followers": 5,
+      "following": 500
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "FOREX COURSE SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (guaranteed success, join course, limited) (+3), bad profile (+3) = 13, has URL"
+  },
+  "SYNTHETIC_087": {
+    "text": "My toddler just yelled 'TO THE MOON' while throwing his toys. I've been talking about crypto too much. 🚀👶",
+    "profile": {
+      "posts": 250,
+      "followers": 300,
+      "following": 280
+    },
+    "expected": [],
+    "reason": "PARENTING HUMOR - 2 emojis, crypto mention but funny story, no URL, good profile"
+  },
+  "SYNTHETIC_088": {
+    "text": "Peer-reviewed study on Bitcoin's energy consumption: https://nature.com/articles/bitcoin-energy Interesting findings.",
+    "profile": {
+      "posts": 100,
+      "followers": 600,
+      "following": 400
+    },
+    "expected": [],
+    "reason": "ACADEMIC STUDY - Nature journal (prestigious), good profile"
+  },
+  "SYNTHETIC_089": {
+    "text": "🔥💎 COPY TRADING! Copy pro traders! Guaranteed profits! https://bit.ly/copytrade Subscribe now! Auto trades! 🚀💰🤖 #copy #trading #pro #guaranteed #profits #subscribe #auto #trades #forex #crypto",
+    "profile": {
+      "posts": 4,
+      "followers": 1,
+      "following": 750
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "COPY TRADING SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (guaranteed profits, subscribe now, copy) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_090": {
+    "text": "Announcing v2.0 of our DeFi protocol! New features: lower fees, faster transactions, better security. Read the update: https://protocol.io/v2-announcement",
+    "profile": {
+      "posts": 80,
+      "followers": 1200,
+      "following": 400
+    },
+    "expected": [],
+    "reason": "PRODUCT UPDATE - Legitimate project update, established account, detailed info"
+  },
+  "SYNTHETIC_091": {
+    "text": "First day at my new job as a blockchain developer! Excited for this journey. 🎉",
+    "profile": {
+      "posts": 50,
+      "followers": 100,
+      "following": 110
+    },
+    "expected": [],
+    "reason": "PERSONAL MILESTONE - 1 emoji, no URL, good profile, genuine excitement"
+  },
+  "SYNTHETIC_092": {
+    "text": "💰🔥 MATRIX PLAN MLM! Recruit members! Passive income forever! https://shorturl.at/mlm Join team! Make money! 💎🚀💸 #mlm #matrix #recruit #passive #income #team #money #profit #wealth #freedom",
+    "profile": {
+      "posts": 6,
+      "followers": 3,
+      "following": 650
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "MLM SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (passive income, join, make money, recruit) (+3), bad profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_093": {
+    "text": "Comparing different crypto exchanges by fees: https://docs.google.com/spreadsheet/my-comparison Took forever to compile this data!",
+    "profile": {
+      "posts": 70,
+      "followers": 200,
+      "following": 180
+    },
+    "expected": [],
+    "reason": "COMPARISON CHART - Google Docs (legitimate), helpful content, good profile"
+  },
+  "SYNTHETIC_094": {
+    "text": "Anyone else notice the correlation between coffee consumption and successful trades? Just me? ☕📈",
+    "profile": {
+      "posts": 180,
+      "followers": 150,
+      "following": 140
+    },
+    "expected": [],
+    "reason": "RHETORICAL QUESTION - 2 emojis, 1 sus phrase (trades) but joking, no URL, good profile"
+  },
+  "SYNTHETIC_095": {
+    "text": "🚀💰 CLOUD MINING! Mine Bitcoin without hardware! ROI in 30 days! https://is.gd/cloudmine Join now! Easy money! 🔥💎⚡ #cloud #mining #bitcoin #roi #hardware #join #easy #money #profit #crypto",
+    "profile": {
+      "posts": 5,
+      "followers": 2,
+      "following": 700
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "CLOUD MINING SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (roi, join, easy money, mine) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_096": {
+    "text": "Tax season tip: Remember to report your crypto gains. The IRS knows. Trust me. 📋",
+    "profile": {
+      "posts": 200,
+      "followers": 400,
+      "following": 350
+    },
+    "expected": [],
+    "reason": "TAX ADVICE - 1 emoji, helpful reminder, no URL, established account"
+  },
+  "SYNTHETIC_097": {
+    "text": "Interview with Vitalik Buterin on the future of Ethereum: https://podcast.com/vitalik-interview Must listen for ETH holders.",
+    "profile": {
+      "posts": 150,
+      "followers": 2000,
+      "following": 800
+    },
+    "expected": [],
+    "reason": "PODCAST SHARE - Legitimate content, established account, informative"
+  },
+  "SYNTHETIC_098": {
+    "text": "💸💰 HYIP INVESTMENT! 300% daily returns! Deposit now! https://adf.ly/hyip Withdraw anytime! Limited slots! 🔥🚀💎 #hyip #investment #returns #daily #deposit #withdraw #limited #profit #money #crypto",
+    "profile": {
+      "posts": 3,
+      "followers": 0,
+      "following": 850
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "HYIP PONZI SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (investment, returns, deposit, limited) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_099": {
+    "text": "Pro tip: If someone DMs you about an 'exclusive opportunity,' it's a scam. Block and report immediately.",
+    "profile": {
+      "posts": 300,
+      "followers": 600,
+      "following": 500
+    },
+    "expected": [],
+    "reason": "ANTI-SCAM ADVICE - Uses sus phrases but warning others, no URL, established account"
+  },
+  "SYNTHETIC_100": {
+    "text": "Setting up a node for the first time. Any recommendations for best practices? Would appreciate any guidance!",
+    "profile": {
+      "posts": 20,
+      "followers": 30,
+      "following": 40
+    },
+    "expected": [],
+    "reason": "TECHNICAL QUESTION - Genuine question, balanced profile, no URL"
+  },
+  "SYNTHETIC_101": {
+    "text": "🔥💎 STAKING POOL! 500% APY! Stake now! https://bit.ly/staking Guaranteed rewards! No risk! 🚀💰💸 #staking #pool #apy #stake #guaranteed #rewards #risk #profit #defi #crypto",
+    "profile": {
+      "posts": 4,
+      "followers": 1,
+      "following": 800
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "STAKING SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (guaranteed, stake, rewards, no risk) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_102": {
+    "text": "My grandma just asked me what a 'blockchain' is. Spent 2 hours explaining. She still thinks it's a chain for bikes. 😂",
+    "profile": {
+      "posts": 200,
+      "followers": 250,
+      "following": 230
+    },
+    "expected": [],
+    "reason": "FAMILY HUMOR - 1 emoji, wholesome story, no URL, good profile"
+  },
+  "SYNTHETIC_103": {
+    "text": "Grant proposal for blockchain research approved! Working with MIT on scalability solutions. https://mit.edu/blockchain-grant",
+    "profile": {
+      "posts": 50,
+      "followers": 300,
+      "following": 200
+    },
+    "expected": [],
+    "reason": "RESEARCH GRANT - .edu domain, prestigious institution, good profile"
+  },
+  "SYNTHETIC_104": {
+    "text": "💰🔥 RECOVERY SERVICE! Lost your crypto? We can help! Guaranteed recovery! https://t.me/recovery Contact now! 🚀💎🔓 #recovery #service #lost #crypto #guaranteed #contact #help #wallet #password #blockchain",
+    "profile": {
+      "posts": 7,
+      "followers": 4,
+      "following": 600
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "RECOVERY SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (guaranteed, contact, recovery service) (+3), bad profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_105": {
+    "text": "Presenting at blockchain conference next month. Topic: Smart contract security best practices. Slides will be shared after.",
+    "profile": {
+      "posts": 80,
+      "followers": 500,
+      "following": 400
+    },
+    "expected": [],
+    "reason": "CONFERENCE SPEAKER - Professional, good profile, no spam"
+  },
+  "SYNTHETIC_106": {
+    "text": "Why do crypto bros always say 'WAGMI' and 'GM'? Are they okay? Do they need help? Genuine question.",
+    "profile": {
+      "posts": 150,
+      "followers": 180,
+      "following": 170
+    },
+    "expected": [],
+    "reason": "CULTURAL CONFUSION - Humorous question, good profile, no URL"
+  },
+  "SYNTHETIC_107": {
+    "text": "💸💰 ARBITRAGE BOT! Risk-free profits! https://cutt.ly/arbitrage Subscribe! Make money instantly! 🔥🚀💎 #arbitrage #bot #risk #free #profits #subscribe #money #instantly #trading #crypto",
+    "profile": {
+      "posts": 5,
+      "followers": 2,
+      "following": 700
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "ARBITRAGE SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (risk free, profits, subscribe, make money) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_108": {
+    "text": "Documentary on the history of cryptocurrency: https://netflix.com/crypto-doc Really well done, highly recommend.",
+    "profile": {
+      "posts": 120,
+      "followers": 400,
+      "following": 350
+    },
+    "expected": [],
+    "reason": "DOCUMENTARY RECOMMENDATION - Netflix link, good profile"
+  },
+  "SYNTHETIC_109": {
+    "text": "Started a crypto book club! Reading 'The Bitcoin Standard' this month. Virtual meetup every Sunday. DM if interested!",
+    "profile": {
+      "posts": 40,
+      "followers": 60,
+      "following": 65
+    },
+    "expected": [],
+    "reason": "BOOK CLUB - 1 sus phrase (dm) but legitimate community building, balanced profile, no URL"
+  },
+  "SYNTHETIC_110": {
+    "text": "🔥💎 PRESALE TOKENS! Early investor bonus! 1000x potential! https://rebrand.ly/presale Buy now! Limited supply! 🚀💰🤑 #presale #tokens #early #investor #bonus #1000x #buy #limited #supply #crypto",
+    "profile": {
+      "posts": 3,
+      "followers": 1,
+      "following": 850
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "PRESALE SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (early investor, buy, limited supply, presale) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_111": {
+    "text": "Explaining Bitcoin to my 8-year-old: 'It's like monopoly money but for adults and the internet.' Nailed it. 👨‍👧",
+    "profile": {
+      "posts": 180,
+      "followers": 200,
+      "following": 190
+    },
+    "expected": [],
+    "reason": "PARENTING MOMENT - 1 emoji, wholesome, no URL, good profile"
+  },
+  "SYNTHETIC_112": {
+    "text": "Launched my crypto newsletter! Weekly market analysis and project reviews. Subscribe: https://substack.com/my-newsletter Free forever.",
+    "profile": {
+      "posts": 30,
+      "followers": 80,
+      "following": 70
+    },
+    "expected": [],
+    "reason": "NEWSLETTER LAUNCH - 2 sus phrases (subscribe, free) but Substack (legitimate platform), good profile = 1 point, has URL but below threshold"
+  },
+  "SYNTHETIC_113": {
+    "text": "URGENT: If you received a DM from @fake-support claiming to be Bluesky staff, it's a phishing attempt. Report immediately. https://bluesky-help.com/report-phishing",
+    "profile": {
+      "posts": 250,
+      "followers": 1000,
+      "following": 600
+    },
+    "expected": [],
+    "reason": "PHISHING WARNING - Uses 'urgent' but legitimate warning, established account, help link"
+  },
+  "SYNTHETIC_114": {
+    "text": "💰🔥 DOUBLER SYSTEM! Send 1 ETH get 2 ETH back! Guaranteed! https://t.me/doubler Limited time! Join now! 🚀💎💸 #doubler #system #eth #guaranteed #limited #time #join #profit #money #crypto",
+    "profile": {
+      "posts": 2,
+      "followers": 0,
+      "following": 900
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "DOUBLER SCAM (CLASSIC) - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (guaranteed, limited time, join) (+3), extreme profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_115": {
+    "text": "My kid drew a picture of Bitcoin. It's a circle with a B. I'm weirdly proud. 🎨₿",
+    "profile": {
+      "posts": 220,
+      "followers": 280,
+      "following": 260
+    },
+    "expected": [],
+    "reason": "PROUD PARENT - 2 emojis (one is Bitcoin symbol), wholesome, no URL, good profile"
+  },
+  "SYNTHETIC_116": {
+    "text": "Code snippet for implementing EIP-1559 gas estimation: https://gist.github.com/my-gas-estimator Feel free to use in your projects.",
+    "profile": {
+      "posts": 60,
+      "followers": 300,
+      "following": 250
+    },
+    "expected": [],
+    "reason": "CODE SHARING - GitHub Gist, technical, good profile"
+  },
+  "SYNTHETIC_117": {
+    "text": "💸💰 MENTORSHIP PROGRAM! Learn from millionaires! Guaranteed success! https://bit.ly/mentor Join group! Limited spots! 🔥🚀💎 #mentorship #millionaires #guaranteed #success #group #limited #spots #money #profit #wealth",
+    "profile": {
+      "posts": 6,
+      "followers": 3,
+      "following": 650
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "MENTORSHIP SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (guaranteed success, join, limited spots, mentorship) (+3), bad profile (+5) = 15, has URL"
+  },
+  "SYNTHETIC_118": {
+    "text": "Survey for my master's thesis on crypto adoption. Anonymous, takes 5 min. Would really appreciate responses: https://surveymonkey.com/crypto-survey",
+    "profile": {
+      "posts": 15,
+      "followers": 40,
+      "following": 50
+    },
+    "expected": [],
+    "reason": "RESEARCH SURVEY - SurveyMonkey (legitimate), academic purpose, balanced profile"
+  },
+  "SYNTHETIC_119": {
+    "text": "Remember when people said Bitcoin was just for buying pizza? Pepperidge Farm remembers. 🍕",
+    "profile": {
+      "posts": 300,
+      "followers": 400,
+      "following": 380
+    },
+    "expected": [],
+    "reason": "NOSTALGIC MEME - 1 emoji, humor, no URL, good profile"
+  },
+  "SYNTHETIC_120": {
+    "text": "💰🔥 SECRET STRATEGY! Insider trading tips! Guaranteed wins! https://shorturl.at/insider Subscribe VIP! Make millions! 🚀💎💸 #secret #strategy #insider #trading #guaranteed #wins #subscribe #vip #millions #crypto",
+    "profile": {
+      "posts": 4,
+      "followers": 1,
+      "following": 800
+    },
+    "expected": ["Potential URL scam post"],
+    "reason": "INSIDER TRADING SCAM - Shortened URL (+2), 5 emojis (+2), 10 hashtags (+3), 3+ sus phrases (guaranteed wins, subscribe, vip, insider, make millions) (+3), extreme profile (+5) = 15, has URL"
+  }
+}

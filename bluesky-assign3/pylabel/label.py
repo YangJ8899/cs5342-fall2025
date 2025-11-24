@@ -1,14 +1,26 @@
 """Command-line tool for labeling posts and accounts on Bluesky"""
 
 import argparse
+<<<<<<< HEAD
 import os
+=======
+import argparse
+import os
+from io import BytesIO
+>>>>>>> myrepo/main
 from typing import List
 
 import requests
 from atproto import Client, models
 from atproto_client.models.com.atproto.admin.defs import RepoRef
 from atproto_client.models.com.atproto.repo.strong_ref import Main
+<<<<<<< HEAD
 from dotenv import load_dotenv
+=======
+from atproto_client.models.app.bsky.feed.post import GetRecordResponse
+from dotenv import load_dotenv
+from PIL import Image
+>>>>>>> myrepo/main
 
 load_dotenv(override=True)
 USERNAME = os.getenv("USERNAME")
@@ -41,6 +53,31 @@ def post_from_url(client: Client, url: str):
     handle = parts[-3]
     return client.get_post(rkey, handle)
 
+<<<<<<< HEAD
+=======
+def images_from_post(post: GetRecordResponse):
+    """
+    Retrieve image URLs for the images within a bluesky post
+    """
+    images = []
+    if post.value.embed is None:
+        return []
+    for image in post.value.embed.images:
+        ref = image.image.ref.link
+        did = post.uri.split("/")[2]
+        url = f"https://cdn.bsky.app/img/feed_fullsize/plain/{did}/{ref}"
+        images.append(image_from_url(url))
+    return images
+
+def image_from_url(url: str):
+    """
+    Download image from URL
+    Inspo code:
+    https://stackoverflow.com/questions/7391945/how-do-i-read-image-data-from-a-url-in-python
+    """
+    response = requests.get(url, timeout=10)
+    return Image.open(BytesIO(response.content))
+>>>>>>> myrepo/main
 
 def label_account(client: Client, handle: str, label_value: List[str]):
     """
