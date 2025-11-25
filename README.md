@@ -88,6 +88,12 @@ Run the labeler against all test posts (real + synthetic):
 python test_labeler.py ./labeler-inputs ./test-data/data.csv
 ```
 
+You might require a .env file with the following:
+```USERNAME = "labeler-test.bsky.social"
+PW = "iGpgENpmUHG87@3"
+DID = "did:plc:swmumnkmw5osopckigoal7ox"
+```
+
 **Expected Output:**
 ```
 URLs found: [...]
